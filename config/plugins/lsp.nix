@@ -8,7 +8,7 @@
       ts_ls = {
         enable = true;
       };
-      volar = {
+      vue_ls = {
         enable = true;
       };
       tailwindcss = {
