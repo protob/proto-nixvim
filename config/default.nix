@@ -25,6 +25,9 @@
   ];
 
   config = {
+    # Suppress nixvim/nixpkgs version mismatch warning when used with a stable host flake
+    version.enableNixpkgsReleaseCheck = false;
+
     extraPackages = with pkgs; [
       ripgrep
       fd
